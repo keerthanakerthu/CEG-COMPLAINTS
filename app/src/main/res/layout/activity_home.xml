@@ -1,0 +1,44 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+xmlns:tools="http://schemas.android.com/tools"
+android:layout_width="match_parent"
+android:layout_height="match_parent"
+android:background="@drawable/log"
+android:gravity="center_vertical"
+android:orientation="vertical" >
+
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:text="CEG-COMPLAINTS"
+        android:layout_marginTop="20dp"
+        android:layout_marginLeft="110dp"
+        android:id="@+id/textView"
+        android:width="300dp"
+        android:layout_alignBottom="@+id/button"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true" />
+
+    <Button
+    android:id="@+id/buttonSignIN"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:background="#aabb22"
+        android:layout_marginLeft="150dp"
+        android:text="Login"
+        android:textColor="#ffffff"
+    android:onClick="signIn" />
+
+<Button
+    android:id="@+id/buttonSignUP"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:text="Signup"
+    android:textColor="#ffffff"
+    android:layout_marginLeft="150dp"
+android:layout_marginTop="100dp"
+    android:background="#aabb22" />
+
+</LinearLayout>

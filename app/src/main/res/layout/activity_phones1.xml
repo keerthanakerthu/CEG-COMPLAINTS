@@ -1,0 +1,64 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingLeft="@dimen/a1"
+    android:paddingRight="@dimen/a2"
+    android:paddingTop="@dimen/a3"
+    android:paddingBottom="@dimen/a4"
+    android:background="@drawable/not2">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Contact Senior Persons"
+        android:id="@+id/textView"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:textSize="30dp"
+        android:textColor="#ffffff"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Solvers"
+        android:id="@+id/textView2"
+        android:layout_below="@+id/textView"
+        android:layout_centerHorizontal="true"
+        android:textSize="30dp"
+        android:textColor="#ff14be3c" />
+
+
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Call Head"
+        android:id="@+id/button"
+        android:layout_below="@+id/imageView"
+        android:layout_marginTop="100dp"
+        android:layout_marginLeft="130dp"
+        android:textColor="#ffffff"
+        android:background="@android:color/transparent"/>
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Call assisstant"
+        android:id="@+id/button1"
+        android:layout_below="@+id/imageView"
+        android:layout_marginTop="200dp"
+        android:layout_marginLeft="130dp"
+        android:textColor="#ffffff"
+        android:background="@android:color/transparent"/>
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Call faculty advisor"
+        android:id="@+id/button2"
+        android:layout_below="@+id/imageView"
+        android:layout_marginTop="300dp"
+        android:layout_marginLeft="130dp"
+        android:textColor="#ffffff"
+        android:background="@android:color/transparent"/>
+
+</RelativeLayout>

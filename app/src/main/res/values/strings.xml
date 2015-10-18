@@ -1,0 +1,21 @@
+<resources>
+    <string name="app_name">CEG complaints app</string>
+
+    <string name="hello_world">Hello world!</string>
+    <string name="action_settings">Settings</string>
+    <string name="action_settings1">Mail</string>
+    <string name="title_activity_sign_up">SignUPActivity</string>
+    <string name="title_activity_welcome">Welcome</string>
+    <string name="title_activity_complaints">ComplaintsActivity</string>
+    <string name="title_activity_dayscholar">Dayscholar</string>
+    <string name="title_activity_problem">Problem</string>
+    <string name="title_activity_phones1">Phones1</string>
+    <string name="title_activity_proof">Proof</string>
+    <string name="title_activity_hostel">Hostel</string>
+    <string name="title_activity_nri">NRI</string>
+    <string name="title_activity_problem1">Problem1</string>
+    <string name="title_activity_problem2">Problem2</string>
+    <string name="menu_mailtext">MAIL</string>
+    <string name="title_activity_main">MainActivity</string>
+
+</resources>
